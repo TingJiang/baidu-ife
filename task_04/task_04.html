@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>任务四：定位和居中问题</title>
+	<style type="text/css">
+	#greybox{
+		background-color: #ccc;
+		width: 400px;
+		height: 200px;
+		overflow: hidden;
+
+		position: absolute;
+		top: 50%;
+		margin-top: -100px;
+		left: 50%;
+		margin-left: -200px;
+
+		/*-----水平居中-----*/
+		/*margin: auto;*/
+	}
+	.circle{
+		width: 100px;
+		height: 100px;
+		background-color: #fc0;
+		border-radius: 50px;
+		position: absolute;
+	}
+	#circle1{
+		top: -50px;
+		left: -50px;
+	}
+	#circle2{
+		bottom: -50px;
+		right: -50px;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="greybox">
+		<div class="circle" id="circle1"></div>
+		<div class="circle" id="circle2"></div>
+	</div>
+</body>
+</html>

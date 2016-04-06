@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>任务五：零基础HTML及CSS编码（二）</title>
+    <link rel="stylesheet" type="text/css" href="style_05.css">
+</head>
+
+<body>
+<div id="header">
+	<div class="caption">	
+		<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png">
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><a href="#">导航链接四</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="wrap">
+	<div class="page" id="register">
+		<h2 class="subcaption">这里以后是一个侧栏，这是侧栏的标题</h2>
+			<!-- <h2>侧栏注册窗口标题</h2> -->
+		<form id="form">
+			<div id="email">
+				<div class="form-left">请输入邮箱地址：</div> 
+				<div class="form-right"><input type="text" name="text" value="这是一个文本输入框"></div>
+				<p class="form-right hint">邮箱地址请按要求格式输入</p>
+			</div>
+
+			<div id="password">
+				<div class="form-left">请输入密码：</div> 
+				<div class="form-right"><input type="text" name="text" value="这是一个文本输入框"></div>
+				<div class="form-left">请重复输入密码：</div> 
+				<div class="form-right"><input type="text" name="text" value="这是一个文本输入框"></div>
+				<p class="form-right hint">密码请为6-16位英文数字</p>
+			</div>
+
+			<div>
+				<span class="form-left">性别：</span>
+				<span class="form-right">
+					<input type="radio" name="sex" value="male" id="male" checked="checked">
+					<label for="male">男</label>
+					<input type="radio" name="sex" value="female" id="female">
+					<label for="female">女</label>
+				</span>
+			</div>
+				
+			<div>
+				<span class="form-left">城市：</span>
+				<div class="form-right">
+					<select name="cities">
+						<option value="beijing" selected="selected">北京</option>
+						<option value="beijing">天津</option>
+						<option value="beijing">上海</option>
+					</select>
+				</div>
+			</div>
+
+			<div>
+				<span class="form-left">爱好：</span>
+				<div class="form-right">
+					<input type="checkbox" name="hobbies" value="sport" id="sport">
+					<label for="sport" >运动</label> 
+					<input type="checkbox" name="hobbies" value="art" id="art">
+					<label for="art">艺术</lable>
+					<input type="checkbox" name="hobbies" value="science" id="science">
+					<label for="science">科学</label>
+				</div>
+			</div>
+
+			<div>
+				<span class="form-left">个人描述：</span>
+				<div class="form-right">
+					<textarea id="textarea" rows="5" cols="17">	这是一个多行输入框，输入您的个人描述</textarea>	
+				</div>
+			</div>
+
+			<input id="submit" type="submit" value="提交">
+		</form>
+	</div>
+
+	<div id="mainbody">
+		<div class="page" id="page1">
+			<h2 class="caption1">文章一级标题</h2>
+			<h2 class="caption2">文章二级标题</h2>
+			<p class="intro">文章作者 文章发表时间</p>
+			<p class="para">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈哈哈哈，哈哈和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>哈哈哈哈哈和哈哈哈哈哈，<strong>这里有个粗体字</strong>哈哈哈哈哈哈哈哈哈哈哈哈和哈哈，哈哈哈哈哈哈哈和和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+			<img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png">
+			<p class="para">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈哈哈哈，哈哈和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击打开新窗口链接到http://ife.baidu.com</a>哈哈哈哈哈和哈哈哈哈哈，<strong>这里有个粗体字</strong>哈哈哈哈哈哈哈哈哈哈哈哈和哈哈，哈哈哈哈哈哈哈和和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+		</div>
+
+		<div class="page"  id="page2">
+			<h2 class="caption1">另一篇文章一级标题</h2>
+			<h2 class="caption2">文章二级标题</h2>
+			<p class="intro">文章作者 文章发表时间</p>
+			<p class="para">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈哈哈，哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈哈哈哈，哈哈和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，换行了<br>哈哈哈哈哈哈哈哈哈和哈哈哈哈，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>哈哈哈哈哈和哈哈哈哈哈，<strong>这里有个粗体字</strong>哈哈哈哈哈哈哈哈哈哈哈哈和哈哈，哈哈哈哈哈哈哈和和哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+			<img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png">
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</div>
+
+		<div class="page" id="imgs">
+			<h2>图片</h2>
+			<blockquote>
+				<p>好看的图片<br><img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png"></p>
+				<p>好看的图片<br><img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png"></p>
+				<p>好看的图片<br><img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png"></p>
+				<p>好看的图片<br><img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png"></p>
+				<p>好看的图片<br><img src="http://img.boqiicdn.com/Data/S/T/201504/img35441428028132.png"></p>
+			</blockquote>
+		</div>
+
+		<div class="page" id="lastpage">
+			<h2 class="caption1">最后一篇文章一级标题</h2>
+			<h2 class="caption2">文章二级标题</h2>
+			<p class="intro">文章作者 文章发表时间</p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			
+			下面是一个表格，给表格加了一个border="1"好让你看出是一个表格
+			<table border="1">
+				<!-- <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</caption> -->
+				<tr>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr class="total">
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<p>版权所有©</p>	
+</div>
+
+</body>
+
+</html>

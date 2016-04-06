@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Arial";
+}
+
+img{
+	width: 80px;
+	height: 80px;
+}
+
+#wrap{
+	background-color: #eee;
+	margin: 20px;
+	padding:20px;
+	border: 1px solid #999;
+}
+
+#left{
+	width: 160px;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding:20px;
+}
+
+#middle{
+	background-color: #fff;
+	border: 1px solid #999;
+	padding:20px;
+}
+
+#right{
+	width: 80px;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding:20px;
+}
+
+h3{
+	font-size: 16px;
+}
+
+h4 a{
+	font-size:12px;
+	color: #ccc;
+}
+
+#teamlogo{
+	float: left;
+	margin-right: 20px;
+}
+
+/*--------------float-浮动定位---------------*/
+
+/*
+#wrap{
+	overflow: hidden;
+}
+
+#left{
+	float: left;
+	margin-right: 20px;
+}
+
+#middle{
+	overflow: hidden;
+	/*
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+#right{
+	float: right;
+	margin-left: 20px;
+}
+
+*/
+
+/*--------------psositon-相对与绝对定位---------------*/
+#wrap{
+	position: relative;
+	min-height: 400px;
+}
+
+#left{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+#middle{
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+#right{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}

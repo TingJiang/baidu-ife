@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Arial";
+	background: #dedede;
+}
+
+#header{
+	background: #333;
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+}
+
+#mainbody{
+	background: #dedede;
+	width: 100%;
+}
+
+#footer{
+	background:#000;
+	width: 100%;
+	height: 20px; 
+	color: #fff;
+	padding: 20px;
+
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*--------style of header-------*/
+.caption{
+	float: left;
+	/*background: red;*/
+	margin-left: 20px;
+
+	line-height: 70px;
+	text-align: center;
+}
+
+.caption img{
+	float: left;
+	/*background: red;*/
+	width: 120px;
+	height: auto;
+	color: #fff;
+}
+
+.nav{
+	float: right;
+	/*background: blue;*/
+	margin-right: 20px;
+
+	line-height: 70px;
+}
+
+.nav li{
+	float: left;
+	position: relative;
+	margin-left: 30px;
+}
+
+.nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*-----------style of mainbody-----------*/
+/*-----总体类定义------*/
+.page{
+	border: 1px solid;
+	margin: 20px;
+	padding: 20px;
+	background: #fff;
+} 
+
+.page *{
+	margin: 10px 0px;
+}
+
+.caption1{
+	color: #333;
+}
+
+.caption2{
+	color: #666;
+	font-size: 18px;
+}
+
+.intro{
+	color: #666;
+	font-size: 14px;
+}
+
+.para{
+	text-indent: 2em;
+}
+
+/*------特殊样式定义-----*/
+#page2 ul{
+	text-indent: 2em;
+	list-style: none;
+}
+
+#imgs p{
+	width: 250px;
+	margin: 20px 40px;
+	padding: 20px;
+
+	text-align: center;
+	border: 1px solid #222;
+}
+
+#imgs img{
+	width: 250px;
+	height: auto;
+}
+
+#lastpage ol{
+	margin-left: 50px;
+}
+
+/*---表格---*/
+#lastpage table{
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	padding: 4px;
+}
+
+#lastpage th{
+	background-color: #333;
+	color: #fff;
+	padding: 4px;
+}
+
+#lastpage td{
+	padding: 4px;
+}
+
+.total{
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+/*---表单---*/
+.subcaption{
+	height: 35px;
+	border-left: 3px solid #ccc;
+	padding-left: 10px;
+
+	font-size: 18px;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
+#form *{
+	margin: 3px 0px;
+}
+
+.form-left{
+	clear: both;
+	float: left;
+	width: 40%;
+	height: 26px;
+	line-height: 26px;
+
+	text-align:right;
+	vertical-align: middle;
+	/*background-color: blue;*/
+	font-size: 14px;
+}
+
+.form-right{
+	float: right;
+	width: 60%;
+	/*height: 35px;*/
+	line-height: 26px;
+	vertical-align: middle;
+	/*background-color: red;*/
+	font-size: 14px;
+}
+
+/*#email{margin-bottom: 5px;}
+#password{margin-bottom: 5px;}*/
+
+.hint{
+	color: #ccc;
+}
+
+#textarea{
+	width: 90%;
+}
+
+#submit{
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+/*	background-color: #3355d0；
+	background: #3355d0；*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

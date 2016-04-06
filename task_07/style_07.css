@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:"Arial","Microsoft YaHei","微软雅黑";
+	background: #fff;
+}
+
+#header{
+	background: #fff;
+	width: 100%;
+	height: 56px;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	box-shadow: 0 1px 10px  #999;
+	z-index: 1;
+}
+
+#mainbody{
+	width: 1280px;
+	margin: 56px auto auto;
+}
+
+#footer{
+	background:#32353e;
+	width: 100%;
+	height: 58px; 
+	color: #fff;
+
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*-----------------------------style of header------------------------------*/
+.caption{
+	float: left;
+	/*background: red;*/
+	margin-left: 50px;
+	line-height: 56px;
+	
+	text-align: center;
+	font-size: 21px;
+}
+
+.caption img{
+	margin-top: 10px;
+	width: 31px;
+	height: auto;
+}
+
+.caption span{
+	padding-bottom: 20px;
+}
+
+.nav{
+	float: right;
+	margin-right: 50px;
+	line-height: 56px;
+
+	font-size: 14px;
+}
+
+.nav li{
+	float: left;
+	position: relative;
+	margin-left: 30px;
+	list-style: none;
+}
+
+.nav a{
+	color: #787b83;
+	text-decoration: none;
+}
+
+/*-----------------------------style of mainbody------------------------------*/
+/*-------------------style of start--------------------*/
+#start{
+	position: relative;
+	width: 1280px;
+	height: 690px;
+	background: url(http://e.hiphotos.baidu.com/image/pic/item/eaf81a4c510fd9f99b719bdd222dd42a2834a424.jpg);
+
+}
+
+#cover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.2;
+}
+
+#content{
+	position: absolute;
+	left: 117px;
+	top: 230px;
+}
+
+#content h1{
+	height: 50px;
+	color: white;
+	font-size: 60px;
+	font-weight: 400;
+}
+
+#content p{
+	margin-top: 30px;
+	margin-left: 7px;
+	width: 295px;
+	height: 53px;
+	color: #fffdfd;
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	font-weight: lighter;
+}
+
+#content button{
+	margin-top: 60px;
+	margin-left: 7px;
+	width: 331px;
+	height: 65px;
+	border: none;
+	background: #e7504d;
+	color: white;
+	font-size: 30px;
+}
+
+
+/*-------------------style of intro--------------------*/
+#intro{
+	height: 250px;
+	background: #fff;
+}
+
+.intro{
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: auto;
+}
+
+.img{
+	height: 200px;
+}
+
+.img img{
+	padding-left: 40%;
+	padding-top: 79px;
+}
+
+.intro p{
+	padding: auto 100px;
+	text-align: center;
+}
+
+/*-------------------style of about--------------------*/
+#about{
+	height: 360px;
+	background: #ededed;
+}
+
+#about *{
+	overflow: hidden;
+	text-align: center;
+}
+
+#logo_l{
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+#about h1{
+	padding-top: 50px;
+	opacity: 0.5;
+	color: #323333;
+	font-family: SimHei;
+	font-size: 54px;
+	font-weight: 400;
+	line-height: 57px;
+}
+
+/*-------------------style of cities--------------------*/
+#cities{
+	position: relative;
+	width: 1280px;
+	height: 341px;
+	background: url(http://c.hiphotos.baidu.com/image/pic/item/9f510fb30f2442a7a324af13d643ad4bd1130259.jpg);
+
+}
+
+#cover2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	opacity: 0.1;
+}
+
+/*-------------------style of activities--------------------*/
+#activities{
+	height: 620px;
+	background-color:#f7f7f7;
+}
+
+
+/*-----------------------------style of footer------------------------------*/
+#copyright{
+	float: left;
+	margin-left: 50px;
+	line-height: 58px;
+	text-align: center;
+}
+
+#backtotop{
+	float: right;
+	margin-right: 50px;
+	line-height: 58px;
+	text-align: center;
+}
