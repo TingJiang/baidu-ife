@@ -28,12 +28,13 @@
       var ulNodes=document.getElementById('source').childNodes;
       var data=new Array();
       j=0;  
-      for(i=0;i<ulNodes.length;i++){
+      for(var i=0;i<ulNodes.length;i++){
         if(ulNodes[i].nodeType!=3){
           var airData=ulNodes[i].childNodes;
           var cityName=airData[0].nodeValue.substr(0,2);
           var airValue=airData[1].innerHTML;
           data[j]=[cityName,airValue];
+          //data.push([cityName,airValue]);
           //document.write(data[j]+"<br>");
           j++;
         }
@@ -68,13 +69,14 @@
       // }
 
       var resort = document.getElementById('resort');
-      resort.innerHTML='';
+      //resort.innerHTML='';
       for(var i=0;i<data.length;i++){
           var node = document.createElement('li');
           var html = '第'+(i+1)+'名：'+data[i][0]+'空气质量：<b>'+data[i][1]+'</b>';
           node.innerHTML = html;
           resort.appendChild(node);
       }
+
     }
 
     function btnHandle() {
@@ -86,7 +88,7 @@
     function init() {
       // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
       var sortBtn=document.getElementById('sort-btn');
-      sortBtn.setAttribute("onclick","btnHandle()")
+      sortBtn.setAttribute("onclick","btnHandle()");
     }
 
     init();
